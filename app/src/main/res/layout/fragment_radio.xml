@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/linearRadio">
+
+    <TextView
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:textColor="#43A047"
+        android:id="@+id/tvCauHoiOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hãy trả lời câu hỏi sau" />
+
+    <RadioGroup
+        android:id="@+id/rdGr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rdAsOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="RADIO 1" />
+
+        <RadioButton
+            android:id="@+id/rdAsTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="RADIO 2" />
+
+        <RadioButton
+            android:id="@+id/rdAsThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="RADIO 3" />
+
+        <RadioButton
+            android:id="@+id/rdAsFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="RADIO 4" />
+    </RadioGroup>
+    <LinearLayout
+        android:background="#7CB342"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnPreviousRD"
+            android:layout_marginRight="10dp"
+            android:background="#FF9800"
+            android:text="Trước"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnResultRD"
+            android:layout_marginRight="10dp"
+            android:background="#FF9800"
+            android:text="RESULT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnNextRD"
+            android:background="#FF9800"
+            android:text="Sau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

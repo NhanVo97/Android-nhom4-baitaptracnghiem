@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/fragmentCheckBox">
+        <TextView
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:textColor="#43A047"
+            android:id="@+id/tvCauHoiOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hãy trả lời câu hỏi sau" />
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:layout_weight="2"
+                android:text="CHECKBOX 1"
+                android:id="@+id/cbOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:layout_weight="2"
+                android:text="CHECKBOX 2"
+                android:id="@+id/cbTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:layout_weight="2"
+                android:text="CHECKBOX 3"
+                android:id="@+id/cbThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:layout_weight="2"
+                android:text="CHECKBOX 4"
+                android:id="@+id/cbFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    <LinearLayout
+        android:background="#7CB342"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnPreviousCB"
+            android:layout_marginRight="10dp"
+            android:background="#FF9800"
+            android:text="Trước"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnResultCB"
+            android:layout_marginRight="10dp"
+            android:background="#FF9800"
+            android:text="RESULT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnNextCB"
+            android:background="#FF9800"
+            android:text="Sau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

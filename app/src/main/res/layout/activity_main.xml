@@ -1,0 +1,41 @@
+<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+    <TextView
+        android:background="#CCFF90"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:text="Trắc Nghiệm Vui"
+        android:textStyle="bold"
+        android:textColor="#F44336"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/tvUserName"
+        android:layout_marginTop="10dp"
+        android:hint="Nhập Tên Người Chơi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/btnSetTimePlay"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="#8BC34A"
+        android:text="Cài Đặt Thời Gian Chơi"
+        android:textColor="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textColor="#FFF"
+        android:background="#FF9800"
+        android:textStyle="bold"
+        android:text="Chơi Nào"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

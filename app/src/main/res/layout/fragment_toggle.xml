@@ -1,0 +1,74 @@
+<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TextView
+        android:gravity="center"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:textColor="#43A047"
+        android:id="@+id/tvCauHoiFour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hãy trả lời câu hỏi sau" />
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:padding="10dp"
+            android:layout_weight="2"
+            android:id="@+id/tvQuestionOneTg"
+            android:text="Câu hỏi đầu tiên"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ToggleButton
+            android:layout_weight="0.2"
+            android:id="@+id/ToogleOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></ToggleButton>
+    </LinearLayout>
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:padding="10dp"
+            android:layout_weight="2"
+            android:id="@+id/tvQuestionTwoTg"
+            android:text="Câu hỏi thứ hai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ToggleButton
+            android:layout_weight="0.2"
+            android:id="@+id/ToogleTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></ToggleButton>
+    </LinearLayout>
+    <LinearLayout
+        android:background="#7CB342"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnPreviousTG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="#FF9800"
+            android:text="Trước" />
+        <Button
+            android:id="@+id/btnResultTG"
+            android:layout_marginRight="10dp"
+            android:background="#FF9800"
+            android:text="RESULT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnNextTG"
+            android:background="#FF9800"
+            android:text="Sau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
